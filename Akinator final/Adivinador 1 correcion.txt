@@ -1,0 +1,508 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	//Utilice un array para almacenar el numero estimado de personajes
+	string personaje[71] = { "Denji", "Makima", "Pochita", "Aki", "Power", "Kobeni","Satoru","Megumi", "Nobara", "Yuji","Toge","Panda","Maki","Mei", "Aoi","Kento","Suguro","Sukuma","Mahito","Eren","Armin","Hange","Mikasa","Levi","Zeke", "Annie", "Erwin","Reiner","Falco","Ryuk","L","Light","Misa","Near","Mello","Mastuda", "Rem","Inuyasha","Kagome","Sesshumaru","Kikyo","Koga","Miroku","Sango","Shippo","Myoga","Naraku","Tomioka","Mitsuri","Uzui","Shinobu","Tokito","Rengoku","Nezuko","Tanjiro","Zenitsu","Kanao","Inosuke","Muzan","Akana","Goku","Vegeta","Bulma","Piccoro","Krillin","Androide 18","Gohan","Freezer","Trunks","Mr.Satan", "Videl" };
+	cout << "Bienvenido al adivinador de personajes de anime" << endl;
+	cout << "Piensa en un personaje del siguiente listado de animes: " << endl;
+	cout << "Kimetsu no yaiba " << endl;
+	cout << "Death note" << endl;
+	cout << "Jujutsu Kaisen" << endl;
+	cout << "Dragon Ball" << endl;
+	cout << "Chainsaw Man" << endl;
+	cout << "Inuyasha" << endl;
+	bool adivinado = false;
+	string respuesta;
+	bool mujer = false;
+	bool armas = false;
+	bool pelinegra = false;
+	bool inuyasha = false;
+	bool kagome = false;
+	bool hombre = false;
+	bool kikyo = false;
+	bool magia = false;
+	bool no_pelinegra = false;
+	bool AOT = false;
+	bool mikasa = false;
+	bool hange = false;
+	bool Annie = false;
+	bool chainsaw_man = false;
+	bool Makima = false;
+	bool Kimetsu = false;
+	bool Nezuko = false;
+	bool death_note = false;
+	bool Rem = false;
+	bool Misa = false;
+	bool dragon_ball = false;
+	bool Bulma = false;
+	bool androide_18 = false;
+	bool Videl = false;
+	bool Power = false;
+	bool Nobara = false;
+	bool Mai = false;
+	bool Kobeni = false;
+	bool Maki = false;
+	bool Mitsuri = false;
+	bool Sango = false;
+	bool Kanao = false;
+	bool Shinobu = false;
+	bool jujutsu = false;
+	//Seccion de preguntas
+
+	//Pregunta 1
+	cout << "¿Tu personaje es hombre o mujer? (h/m): ";
+	cin >> respuesta;
+
+	if (respuesta == "m") {
+		mujer = true;
+	}
+
+	//Pregunta 2
+	cout << "Su personaje utiliza armas? (Si/ No): " << endl;
+	cin >> respuesta;
+	if (respuesta == "Si") {
+		armas = true;
+	}
+	if (respuesta == "No") {
+		armas = false;
+	}
+		//Pregunta 3
+		cout << "Utiliza magia? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			magia = true;
+		}
+			if (respuesta == "No") {
+				magia = false;
+			
+
+		}
+	
+
+	//Pregunta 4
+	cout << "Tiene cabello negro? " << endl;
+	cin >> respuesta;
+	if (respuesta == "Si") {
+		pelinegra = true;
+		if (respuesta == "No") {
+			pelinegra = false;
+		}
+		//Pregunta 5
+		cout << "Es de la serie AOT? (Si/ No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			AOT = true;
+			cout << "Es Mikasa? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				mikasa = true;
+				cout << "He adivinado el personaje" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				mikasa = false;
+				cout << "Oh no, intentemos de nuevo" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+
+		}
+		else if (respuesta == "No") {
+			AOT = false;
+
+		}
+
+	}
+	if (respuesta == "No") {
+		no_pelinegra = true;
+		//Pregunta
+		cout << "Es Annie de AOT? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			Annie = true;
+			cout << "He adivinado el personaje!!" << endl;
+			system("pause");
+			system("cls");
+			return main();
+		}
+		if (respuesta == "No") {
+			Annie = false;
+			
+		}
+
+	}
+
+
+	cout << "Mi adivinanza es...." << endl;
+	//Primera sub-division
+	if (mujer && armas && pelinegra) {
+		//Pregunta
+		cout << "Estas pensando en un personaje de Inuyasha? (Si/No) " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			inuyasha = true;
+
+			if (respuesta == "No") {
+				inuyasha = false;
+			}
+			//Pregunta
+			cout << "Estas pensando en Kagome? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				kagome = true;
+				cout << "He adivinado el personaje" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+
+			 if (respuesta == "No") {
+				kagome = false;
+				//Pregunta
+				cout << "Estas pensando en Kikyo? (Si/No): " << endl;
+				cin >> respuesta;
+				if (respuesta == "Si") {
+					kikyo = true;
+					cout << "He adivinado el personaje" << endl;
+					system("pause");
+					system("cls");
+					return main();
+
+				}
+				else if (respuesta == "No") {
+					kikyo = false;
+				}
+
+			}
+			cout << "Estas pensando en Sango? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Sango = true;
+				cout << "He adivinado el personaje ^^" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Sango = false;
+			}
+		}
+
+		cout << "Estas pensando en un personaje de Kimetsu no Yaiba? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			Kimetsu = true;
+			if (respuesta == "No") {
+				Kimetsu = false;
+			}
+			//Pregunta
+			cout << "Estas pensando en Kanao? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Kanao = true;
+				cout << "He adivinado tu personaje ^^" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Kanao = false;
+			}
+			cout << "Estas pensando en Shinobu? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Shinobu = true;
+				cout << "He adivinado tu personaje ^^" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Shinobu = false;
+			}
+		}
+	}
+	//Segunda Subdivision
+	if (mujer && magia) {
+		//Pregunta
+		cout << "Estas pensando en un personaje de Chainsaw Man? (Si/No) " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			chainsaw_man = true;
+			if (respuesta == "No") {
+				chainsaw_man = false;
+			}
+			//Pregunta
+			cout << "Estas pensando en Makima? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Makima = true;
+				cout << "He adivinado el personaje" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Makima = false;
+			}
+
+		}
+		//Pregunta
+		cout << "Estas pensando en un personaje Kimetsu no Yaiba? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			Kimetsu = true;
+			if (respuesta == "No") {
+				Kimetsu = false;
+			}
+			//Pregunta
+			cout << "Estas pensando en Nezuko? (Si/ No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Nezuko = true;
+				cout << "He adivinado tu personaje" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Nezuko = false;
+			}
+		}
+		//Pregunta
+		cout << "Estas pensando en un personaje de Death Note? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			death_note = true;
+			if (respuesta == "No") {
+				death_note = false;
+			}
+			//Pregunta
+			cout << "Estas pensando en el Shinigami Rem? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Rem = true;
+				cout << "He adivinado tu personaje" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Rem = false;
+			}
+		}
+		cout << "Estas pensando en un personaje de Dragon Ball? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			dragon_ball = true;
+			if (respuesta == "No") {
+				dragon_ball = false;
+			}
+			//Pregunta
+			cout << "Estas pensando en Videl? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Videl = true;
+				cout << "He adivinado tu personaje!!" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Videl = false;
+			}
+		}
+
+	}
+	//Tercera Sub-division
+	if (mujer) {
+		//Pregunta
+		cout << "Estas pensando en un personaje de Death Note? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			death_note = true;
+			if (respuesta == "No") {
+				death_note = false;
+			}
+			//Pregunta
+			cout << "Estas pensando en  Misa? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Misa = true;
+				cout << "He adivinado tu personaje" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Misa = false;
+			}
+		}
+		//Pregunta
+		cout << "Estas pensando en un personaje de Dragon Ball? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			dragon_ball = true;
+			if (respuesta == "No") {
+				dragon_ball = false;
+			}
+			//Pregunta
+			cout << "Estas pensando en la gran cientifica genio (Bulma)? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Bulma = true;
+				cout << "He adivinado tu personaje" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Bulma = false;
+			}
+			cout << "Estas pensando en Androide numero 18? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				androide_18 = true;
+				cout << "He adivinado tu personaje" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				androide_18 = false;
+			}
+		}
+	}
+	//Cuarta Sub- division
+	if (mujer && armas && magia) {
+		//Pregunta
+		cout << "Estas pensando en un personaje de Chainsaw Man? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			chainsaw_man = true;
+			if (respuesta == "No") {
+				chainsaw_man = false;
+			}
+			//Pregunta
+			cout << "Estas pensando en la duena de Nyako (Power)? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Power = true;
+				cout << "He adivinado tu personaje 707" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Power = false;
+			}
+		}
+		cout << "Estas pensando en un personaje de Jujutsu Kaisen? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			jujutsu = true;
+			if (respuesta == "No") {
+				jujutsu = false;
+			}
+			cout << "Estas pensando en Nobara? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Nobara = true;
+				cout << "He adivinado tu personaje ;)" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Nobara = false;
+			}
+		}
+		cout << "Estas pensando en Mai? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			Mai = true;
+			cout << "He adivinado tu personaje ^^" << endl;
+			system("pause");
+			system("cls");
+			return main();
+		}
+		else if (respuesta == "No") {
+			Mai = false;
+		}
+
+	}
+	//Quinta sub-division
+	if (mujer && armas) {
+		//Pregunta
+		cout << "Estas pensando en un personaje de Chainsaw Man? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			chainsaw_man = true;
+		}
+			if (respuesta == "No") {
+				chainsaw_man = false;
+			}
+			//Pregunta
+			cout << "Estas pensando en Kobeni? (Si/ No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Kobeni = true;
+				cout << "He adivinado tu personaje ^^" << endl;
+
+				system("pause");
+				system("cls");
+				return main();
+			}
+				if (respuesta == "No") {
+					Kobeni = false;
+				}
+			}
+		
+		cout << "Estas pensando en un personaje de Jujutsu Kaisen? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			jujutsu = true;
+			if (respuesta == "No") {
+				jujutsu = false;
+			}
+		
+			//Pregunta
+			cout << "Estas pensando en Maki? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Maki = true;
+				cout << "He adivinado tu personaje ^^" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Maki = false;
+			}
+		}
+		cout << "Estas pensando en un personaje de Kimetsu no Yaiba? (Si/No): " << endl;
+		cin >> respuesta;
+		if (respuesta == "Si") {
+			Kimetsu = true;
+			if (respuesta == "No") {
+				Kimetsu = false;
+			}
+			cout << "Estas pensando en Mitsuri? (Si/No): " << endl;
+			cin >> respuesta;
+			if (respuesta == "Si") {
+				Mitsuri = true;
+				cout << "He adivinado te personaje ^^" << endl;
+				system("pause");
+				system("cls");
+				return main();
+			}
+			else if (respuesta == "No") {
+				Mitsuri = false;
+			}
+		}
+	}
