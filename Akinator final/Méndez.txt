@@ -1,0 +1,1149 @@
+#include <iostream>
+using namespace std;
+string respuesta, regreso;
+int main()
+{
+	string respuesta;
+	cout << " Es hombre su personaje (h/m)" << endl; cin >> respuesta; 
+	if (respuesta == "h")
+	{
+		cout << " Utiliza armas? (Si/No) " << endl; cin >> respuesta; 
+		if (respuesta == "Si") 
+		{
+			cout << " Utiliza magia? (Si/No) " << endl; cin >> respuesta; 
+			if (respuesta == "Si")
+			{
+				cout << " Es peliblanco? (Si/No) " << endl; cin >> respuesta;
+				if (respuesta == "Si")
+				{
+					cout << " Su personaje es el protagonista del anime >>Inuyasha<< (Si/No)" << endl; cin >> respuesta;
+					if (respuesta == "Si")
+					{
+						cout << " Su personaje es Inuyasha " << endl; 
+						cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+						if (respuesta == "Si")
+						{
+							cout << " Que bien! He adivinado " << endl; 
+							system("pause");
+							system("cls");
+							return main();
+						}
+						else
+						{
+							cout << " Oh no, intentemos de nuevo " << endl; 
+							system("pause");
+							system("cls");
+							return main();
+						}
+
+					}
+					else if (respuesta == "No")
+					{
+						cout << " Su personaje es Sesshumaru " << endl;
+						cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+						if (respuesta == "Si")
+						{
+							cout << " Que bien! He adivinado " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+						else
+						{
+							cout << " Oh no, intentemos de nuevo " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+					}
+				}
+				else if (respuesta == "No")
+				{
+					cout << " Tiene apariencia humana? (Si/No)" << endl; cin >> respuesta; 
+					if (respuesta == "Si")
+					{
+						cout << " Su personaje es el protagonista de ChainSaw Man? (Si/No)" << endl; cin >> respuesta; 
+						if (respuesta == "Si")
+						{
+							cout << " Su personaje es Denji " << endl; 
+							cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+							if (respuesta == "Si")
+							{
+								cout << " Que bien! He adivinado " << endl;
+								system("pause");
+								system("cls");
+								return main();
+							}
+							else
+							{
+								cout << " Oh no, intentemos de nuevo " << endl;
+								system("pause");
+								system("cls");
+								return main();
+							}
+						}
+						else if (respuesta == "No")
+						{
+							cout << " Su personaje es pelinegro? (Si/No)" << endl; cin >> respuesta; 
+							if (respuesta == "Si")
+							{
+								cout << " Su personaje es Suguru " << endl;
+								cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+								if (respuesta == "Si")
+								{
+									cout << " Que bien! He adivinado " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+								else
+								{
+									cout << " Oh no, intentemos de nuevo " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+							}
+							else if (respuesta == "No")
+							{
+								cout << " Su personaje es Kento " << endl;
+								cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+								if (respuesta == "Si")
+								{
+									cout << " Que bien! He adivinado " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+								else
+								{
+									cout << " Oh no, intentemos de nuevo " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+							}
+						}
+					}
+					else if (respuesta == "No")
+					{
+						cout << " Su personaje es Pochita" << endl; 
+						cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+						if (respuesta == "Si")
+						{
+							cout << " Que bien! He adivinado " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+						else
+						{
+							cout << " Oh no, intentemos de nuevo " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+					}
+				}
+			}
+			else if (respuesta == "No")
+			{
+				cout << " Su personaje es peliblanco? (Si/No)" << endl; cin >> respuesta; 
+				if (respuesta == "Si") 
+				{
+					cout << " Su personaje es Usui Takumi " << endl;
+					cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+					if (respuesta == "Si")
+					{
+						cout << " Que bien! He adivinado " << endl;
+						system("pause");
+						system("cls");
+						return main();
+					}
+					else
+					{
+						cout << " Oh no, intentemos de nuevo " << endl;
+						system("pause");
+						system("cls");
+						return main();
+					}
+				}
+				else if (respuesta == "No")
+				{
+					cout << " Su personaje es un demonio o un titan? (Si/No)" << endl; cin >> respuesta; 
+					if (respuesta == "Si")
+					{
+						cout << " Su personaje es Armin Arlelt " << endl;
+						cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+						if (respuesta == "Si")
+						{
+							cout << " Que bien! He adivinado " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+						else
+						{
+							cout << " Oh no, intentemos de nuevo " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+					}
+					else if (respuesta == "No")
+					{
+						cout << " Su personaje tiene una marca/cicatriz/perdio una parte de su cuerpo? (Si/No)" << endl; 
+						cin >> respuesta; 
+						if (respuesta == "Si")
+						{
+							cout << " Su personaje es canche? (Si/No)" << endl; cin >> respuesta; 
+							if (respuesta == "Si")
+							{
+								cout << " Su personaje es Erwin Smith " << endl;
+								cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+								if (respuesta == "Si")
+								{
+									cout << " Que bien! He adivinado " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+								else
+								{
+									cout << " Oh no, intentemos de nuevo " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+							}
+							else if (respuesta == "No")
+							{
+								cout << " Su personaje es un cazador de demonios? (Si/No)" << endl; cin >> respuesta; 
+								if (respuesta == "Si")
+								{
+									cout << " Su personaje es Tanjirooooo " << endl;
+									cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+									if (respuesta == "Si")
+									{
+										cout << " Que bien! He adivinado " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+									else
+									{
+										cout << " Oh no, intentemos de nuevo " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+								}
+								else if (respuesta == "No")
+								{
+									cout << " Su personaje es Levi Ackerman " << endl;
+									cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+									if (respuesta == "Si")
+									{
+										cout << " Que bien! He adivinado " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+									else
+									{
+										cout << " Oh no, intentemos de nuevo " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+								}
+							}
+						}
+						else if (respuesta == "No")
+						{
+							cout << " Su personaje es pelinegro? (Si/No)" << endl; cin >> respuesta; 
+							if (respuesta == "Si")
+							{
+								cout << " Su personaje usa una mascara de jabali? (Si/No)" << endl; cin >> respuesta; 
+								if (respuesta == "Si")
+								{
+									cout << " Su personaje es Inosuke Hashibira " << endl;
+									cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+									if (respuesta == "Si")
+									{
+										cout << " Que bien! He adivinado " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+									else
+									{
+										cout << " Oh no, intentemos de nuevo " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+								}
+								else if (respuesta == "No")
+								{
+									cout << " Su personaje suele utilizar el cabello medio atado? (Si/No)" << endl; cin >> respuesta; 
+									if (respuesta == "Si")
+									{
+										cout << " Su personaje es AkiHayakawa " << endl;
+										cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+										if (respuesta == "Si")
+										{
+											cout << " Que bien! He adivinado " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+										else
+										{
+											cout << " Oh no, intentemos de nuevo " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+									}
+									else if (respuesta == "No")
+									{
+										cout << " Su personaje tiene algun poder relacionado con el agua? (Si/No)" << endl; cin >> respuesta; 
+										if (respuesta == "Si")
+										{
+											cout << " Su personaje es Tomioka Giyu " << endl;
+											cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+											if (respuesta == "Si")
+											{
+												cout << " Que bien! He adivinado " << endl;
+												system("pause");
+												system("cls");
+												return main();
+											}
+											else
+											{
+												cout << " Oh no, intentemos de nuevo " << endl;
+												system("pause");
+												system("cls");
+												return main();
+											}
+										}
+										else if (respuesta == "No")
+										{
+											cout << " Su personaje es Muchiro Tokito " << endl;
+											cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+											if (respuesta == "Si")
+											{
+												cout << " Que bien! He adivinado " << endl;
+												system("pause");
+												system("cls");
+												return main();
+											}
+											else
+											{
+												cout << " Oh no, intentemos de nuevo " << endl;
+												system("pause");
+												system("cls");
+												return main();
+											}
+										}
+									}
+								}
+							}
+							else if (respuesta == "No")
+							{
+								cout << " Su personaje tiene cabello canche/amarillo? (Si/No)" << endl; cin >> respuesta; 
+								if (respuesta == "Si")
+								{
+									cout << " Su personaje saca su power up cuando duerme? (Si/No)" << endl; cin >> respuesta; 
+									if (respuesta == "Si")
+									{
+										cout << " Su personaje es Zenitsu Agatsuma " << endl;
+										cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+										if (respuesta == "Si")
+										{
+											cout << " Que bien! He adivinado " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+										else
+										{
+											cout << " Oh no, intentemos de nuevo " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+									}
+									else if (respuesta == "No")
+									{
+										cout << " Su personaje es Kyojuro Rengoku " << endl;
+										cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+										if (respuesta == "Si")
+										{
+											cout << " Que bien! He adivinado " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+										else
+										{
+											cout << " Oh no, intentemos de nuevo " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+									}
+
+								}
+								else if (respuesta == "No")
+								{
+									cout << " Su personaje es Trunks " << endl;
+									cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+									if (respuesta == "Si")
+									{
+										cout << " Que bien! He adivinado " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+									else
+									{
+										cout << " Oh no, intentemos de nuevo " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else if (respuesta == "No")
+		{
+			cout << " Utiliza magia? (Si/No) " << endl; cin >> respuesta;
+			if (respuesta == "Si")
+			{
+				cout << " Su personaje es peliblanco? (Si/No)" << endl; cin >> respuesta; 
+				if (respuesta == "Si")
+				{
+					cout << " Su personaje suele tener tapada la boca? (Si/No)" << endl; cin >> respuesta; 
+					if (respuesta == "Si")
+					{
+						cout << " Su personaje es Toge Inumaki " << endl;
+						cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+						if (respuesta == "Si")
+						{
+							cout << " Que bien! He adivinado " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+						else
+						{
+							cout << " Oh no, intentemos de nuevo " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+						
+					}
+					else if (respuesta == "No")
+					{
+						cout << " Su personaje es Satoru Gojo " << endl;
+						cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+						if (respuesta == "Si")
+						{
+							cout << " Que bien! He adivinado " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+						else
+						{
+							cout << " Oh no, intentemos de nuevo " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+					}
+				}
+				else if (respuesta == "No")
+				{
+					cout << " Su personaje tiene apariencia humana? (Si/No)" << endl; cin >> respuesta; 
+					if (respuesta == "Si")
+					{
+						cout << " Es un demonio o un titan? (Si/No)" << endl; cin >> respuesta; 
+						if (respuesta == "Si")
+						{
+							cout << " Tiene una marca/cicatriz/perdio una parte de su cuerpo? (Si/No)" << endl; cin >> respuesta;
+							if (respuesta == "Si")
+							{
+								cout << " Tiene cabello color rosado? (Si/No)" << endl; cin >> respuesta; 
+								if (respuesta == "Si")
+								{
+									cout << " Su personaje es una luna superior? (Si/No)" << endl; cin >> respuesta; 
+									if (respuesta == "Si")
+									{
+										cout << " Su personaje es Akaza " << endl;
+										cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+										if (respuesta == "Si")
+										{
+											cout << " Que bien! He adivinado " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+										else
+										{
+											cout << " Oh no, intentemos de nuevo " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+									}
+									else if (respuesta == "No")
+									{
+										cout << " Su personaje es Sukuna " << endl;
+										cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+										if (respuesta == "Si")
+										{
+											cout << " Que bien! He adivinado " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+										else
+										{
+											cout << " Oh no, intentemos de nuevo " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+									}
+								}
+								else if (respuesta == "No")
+								{
+									cout << " Su personaje es Mahito " << endl;
+									cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+									if (respuesta == "Si")
+									{
+										cout << " Que bien! He adivinado " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+									else
+									{
+										cout << " Oh no, intentemos de nuevo " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+								}
+							}
+							else if (respuesta == "No") 
+							{
+								cout << " Su personaje tiene un grandioso parecido con Tesla de Shumatsu No Valkyrie? (Si/No)" << endl; cin >> respuesta; 
+								if (respuesta == "Si")
+								{
+									cout << " Su personaje es Muzan " << endl;
+									cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+									if (respuesta == "Si")
+									{
+										cout << " Que bien! He adivinado " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+									else
+									{
+										cout << " Oh no, intentemos de nuevo " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+								}
+								else if (respuesta == "No")
+								{
+									cout << " Su personaje es Naraku " << endl;
+									cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+									if (respuesta == "Si")
+									{
+										cout << " Que bien! He adivinado " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+									else
+									{
+										cout << " Oh no, intentemos de nuevo " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+								}
+							}
+						}
+						else if (respuesta == "No")
+						{
+							cout << " Su personaje es un estudiante de magia? (Si/No)" << endl; cin >> respuesta; 
+							if (respuesta == "Si")
+							{
+								cout << " Su personaje es pelinegro? (Si/No)" << endl; cin >> respuesta; 
+								if (respuesta == "Si")
+								{
+									cout << " Su personaje es muy musculoso? (Si/No)" << endl; cin >> respuesta; 
+									if (respuesta == "Si")
+									{
+										cout << " Su personaje es Aoi Todo " << endl;
+										cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+										if (respuesta == "Si")
+										{
+											cout << " Que bien! He adivinado " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+										else
+										{
+											cout << " Oh no, intentemos de nuevo " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+									}
+									else if (respuesta == "No")
+									{
+										cout << " Su personaje es Megumi Fushiguro " << endl;
+										cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+										if (respuesta == "Si")
+										{
+											cout << " Que bien! He adivinado " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+										else
+										{
+											cout << " Oh no, intentemos de nuevo " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+									}
+								}
+								else if (respuesta == "No")
+								{
+									cout << " Su personaje es Yuji Itadori " << endl;
+									cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+									if (respuesta == "Si")
+									{
+										cout << " Que bien! He adivinado " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+									else
+									{
+										cout << " Oh no, intentemos de nuevo " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+								}
+							}
+							else if (respuesta == "No")
+							{
+								cout << " Su personaje es Miroku " << endl;
+								cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+								if (respuesta == "Si")
+								{
+									cout << " Que bien! He adivinado " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+								else
+								{
+									cout << " Oh no, intentemos de nuevo " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+							}
+						}
+					}
+					else if (respuesta == "No")
+					{
+						cout << " Su personaje es un shinigami? (Si/No)" << endl; cin >> respuesta; 
+						if (respuesta == "Si")
+						{
+							cout << " Su personaje es Ryuk " << endl;
+							cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+							if (respuesta == "Si")
+							{
+								cout << " Que bien! He adivinado " << endl;
+								system("pause");
+								system("cls");
+								return main();
+							}
+							else
+							{
+								cout << " Oh no, intentemos de nuevo " << endl;
+								system("pause");
+								system("cls");
+								return main();
+							}
+						
+						}
+						else if (respuesta == "No")
+						{
+							cout << " Su personaje es un tipo de oso? (Si/No)" << endl; cin >> respuesta; 
+							if (respuesta == "Si")
+							{
+								cout << " Su personaje es Panda Jujutsu Kaisen " << endl;
+								cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+								if (respuesta == "Si")
+								{
+									cout << " Que bien! He adivinado " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+								else
+								{
+									cout << " Oh no, intentemos de nuevo " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+							}
+							else if (respuesta == "No")
+							{
+								cout << " Su personaje es Shippo " << endl;
+								cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+								if (respuesta == "Si")
+								{
+									cout << " Que bien! He adivinado " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+								else
+								{
+									cout << " Oh no, intentemos de nuevo " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+							}
+						}
+					}
+				}
+			}
+			else if (respuesta == " No")
+			{
+			cout << "Su personaje es peliblanco? (Si/No)" << endl; cin >> respuesta; 
+			if (respuesta == "Si")
+			{
+				cout << " Su personaje es una pulga viejita? (Si/No)" << endl; cin >> respuesta;
+				if (respuesta == "Si")
+				{
+					cout << " Su personaje es la Pulga Myoga " << endl;
+					cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+					if (respuesta == "Si")
+					{
+						cout << " Que bien! He adivinado " << endl;
+						system("pause");
+						system("cls");
+						return main();
+					}
+					else
+					{
+						cout << " Oh no, intentemos de nuevo " << endl;
+						system("pause");
+						system("cls");
+						return main();
+					}
+				}
+				else if (respuesta == "No")
+				{
+					cout << " Su personaje es Near " << endl;
+					cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+					if (respuesta == "Si")
+					{
+						cout << " Que bien! He adivinado " << endl;
+						system("pause");
+						system("cls");
+						return main();
+					}
+					else
+					{
+						cout << " Oh no, intentemos de nuevo " << endl;
+						system("pause");
+						system("cls");
+						return main();
+					}
+				}
+			}
+			else if (respuesta == "No")//CONTINUAAAAAAAAAAAR no en peliblanco
+			{
+				cout << " Su personaje usualmente tiene una apariencia humana? (Si/No)" << endl; cin >> respuesta; 
+				if (respuesta == "Si")
+				{
+					cout << " Su personaje es un titan o un demonio? (Si/No)" << endl; cin >> respuesta; 
+					if (respuesta == "Si")
+					{
+						cout << " Su personaje es el protagonista del anime AOT? (Si/No)" << endl; cin >> respuesta; 
+						if (respuesta == "Si")
+						{
+							cout << " Su personaje es Eren Yeager " << endl;
+							cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+							if (respuesta == "Si")
+							{
+								cout << " Que bien! He adivinado " << endl;
+								system("pause");
+								system("cls");
+								return main();
+							}
+							else
+							{
+								cout << " Oh no, intentemos de nuevo " << endl;
+								system("pause");
+								system("cls");
+								return main();
+							}
+						}
+						else if (respuesta == "No")
+						{
+							cout << " Su personaje es un niño? (Si/No)" << endl; cin >> respuesta; 
+							if (respuesta == "Si")
+							{
+								cout << " Su personaje es Falco Grice " << endl;
+								cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+								if (respuesta == "Si")
+								{
+									cout << " Que bien! He adivinado " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+								else
+								{
+									cout << " Oh no, intentemos de nuevo " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+							}
+							else if (respuesta == "No")
+							{
+								cout << " Su personaje utiliza lentes? (Si/No)" << endl; cin >> respuesta; 
+								if (respuesta == "Si")
+								{
+									cout << " Su personaje es Zeke Jeager " << endl;
+									cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+									if (respuesta == "Si")
+									{
+										cout << " Que bien! He adivinado " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+									else
+									{
+										cout << " Oh no, intentemos de nuevo " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+							
+								}
+								else if (respuesta == "No")
+								{
+									cout << " Su personaje es Reiner Braun " << endl;
+									cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+									if (respuesta == "Si")
+									{
+										cout << " Que bien! He adivinado " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+									else
+									{
+										cout << " Oh no, intentemos de nuevo " << endl;
+										system("pause");
+										system("cls");
+										return main();
+									}
+								
+								}
+							}
+						}
+					}
+					else if (respuesta == "No")
+					{
+						cout << " Su personaje tiene una marca/cicatriz/perdio una parte de su cuerpo? (Si/No)" << endl; cin >> respuesta; 
+						if (respuesta == "Si")
+						{
+							cout << " Su personaje es calvo? (Si/No)" << endl; cin >> respuesta; 
+							if (respuesta == "Si")
+							{
+								cout << " Su personaje es Krillin " << endl;
+								cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+								if (respuesta == "Si")
+								{
+									cout << " Que bien! He adivinado " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+								else
+								{
+									cout << " Oh no, intentemos de nuevo " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+							}
+							else if (respuesta == "No")
+							{
+								cout << " Su personaje es Mello " << endl;
+								cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+								if (respuesta == "Si")
+								{
+									cout << " Que bien! He adivinado " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+								else
+								{
+									cout << " Oh no, intentemos de nuevo " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+							}
+						}
+						else if (respuesta == "No")
+						{
+							cout << " Su personaje es pelinegro? (Si/No)" << endl; cin >> respuesta; 
+							if (respuesta == "Si")
+							{
+								cout << " Una de las mayores cualidades de su personaje es su inteligencia? (Si/No)" << endl; 
+								cin >> respuesta; 
+								if (respuesta == "Si")
+								{
+									cout << " Su personaje es un ser de otro planeta? (Si/No)" << endl; cin >> respuesta; 
+									if (respuesta == "Si")
+									{
+										cout << " Su personaje es Vegeta " << endl;
+										cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+										if (respuesta == "Si")
+										{
+											cout << " Que bien! He adivinado " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+										else
+										{
+											cout << " Oh no, intentemos de nuevo " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+									}
+									else if (respuesta == "No")
+									{
+										cout << " Su personaje tiene ojeras? (Si/No)" << endl; cin >> respuesta; 
+										if (respuesta == "Si")
+										{
+											cout << " Su personaje es L " << endl;
+											cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+											if (respuesta == "Si")
+											{
+												cout << " Que bien! He adivinado " << endl;
+												system("pause");
+												system("cls");
+												return main();
+											}
+											else
+											{
+												cout << " Oh no, intentemos de nuevo " << endl;
+												system("pause");
+												system("cls");
+												return main();
+											}
+										}
+										else if (respuesta == "No")
+										{
+											cout << " Su personaje es gohan " << endl;
+											cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+											if (respuesta == "Si")
+											{
+												cout << " Que bien! He adivinado " << endl;
+												system("pause");
+												system("cls");
+												return main();
+											}
+											else
+											{
+												cout << " Oh no, intentemos de nuevo " << endl;
+												system("pause");
+												system("cls");
+												return main();
+											}
+										}
+									}
+								}
+								else if (respuesta == "No") 
+								{
+									cout << " Su personaje es un extraterrestre? (Si/No)" << endl; cin >> respuesta; 
+									if (respuesta == "Si")
+									{
+										cout << " Su personaje es Son Goku " << endl;
+										cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+										if (respuesta == "Si")
+										{
+											cout << " Que bien! He adivinado " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+										else
+										{
+											cout << " Oh no, intentemos de nuevo " << endl;
+											system("pause");
+											system("cls");
+											return main();
+										}
+									}
+									else if (respuesta == "No")
+									{
+										cout << " Su personaje es exageradamente colocho? (Si/No)" << endl; cin >> respuesta; 
+										if (respuesta == "Si")
+										{
+											cout << " Su personaje es Mr. Satan " << endl;
+											cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+											if (respuesta == "Si")
+											{
+												cout << " Que bien! He adivinado " << endl;
+												system("pause");
+												system("cls");
+												return main();
+											}
+											else
+											{
+												cout << " Oh no, intentemos de nuevo " << endl;
+												system("pause");
+												system("cls");
+												return main();
+											}
+										}
+										else if (respuesta == "No")
+										{
+											cout << " Su personaje ha trabajado para encontrar a Kira? (Si/No)" << endl; cin >> respuesta;
+											if (respuesta == "Si")
+											{
+												cout << " Su personaje es Matsuda " << endl;
+												cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+												if (respuesta == "Si")
+												{
+													cout << " Que bien! He adivinado " << endl;
+													system("pause");
+													system("cls");
+													return main();
+												}
+												else
+												{
+													cout << " Oh no, intentemos de nuevo " << endl;
+													system("pause");
+													system("cls");
+													return main();
+												}
+											}
+											else if (respuesta == "No")
+											{
+												cout << " Su personaje es Koga " << endl;
+												cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+												if (respuesta == "Si")
+												{
+													cout << " Que bien! He adivinado " << endl;
+													system("pause");
+													system("cls");
+													return main();
+												}
+												else
+												{
+													cout << " Oh no, intentemos de nuevo " << endl;
+													system("pause");
+													system("cls");
+													return main();
+												}
+											}
+										}
+									}
+								}
+							}
+							else if (respuesta == "No")
+							{
+								cout << " Su personaje es Light Yagami " << endl;
+								cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+								if (respuesta == "Si")
+								{
+									cout << " Que bien! He adivinado " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+								else
+								{
+									cout << " Oh no, intentemos de nuevo " << endl;
+									system("pause");
+									system("cls");
+									return main();
+								}
+							}
+						}
+					}
+				}
+				else if (respuesta == "No")
+				{
+					cout << " Su personaje nació en el planeta Namekusei? (Si/No)" << endl; cin >> respuesta;
+					if (respuesta == "Si")
+					{
+						cout << " Su personaje es Piccoro " << endl;
+						cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+
+					}
+					else if (respuesta == "No")
+					{
+						cout << " Su personaje es Frezer " << endl;
+						cout << " He acertado? (Si/No)" << endl; cin >> respuesta; /*__________________*/
+						if (respuesta == "Si")
+						{
+							cout << " Que bien! He adivinado " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+						else
+						{
+							cout << " Oh no, intentemos de nuevo " << endl;
+							system("pause");
+							system("cls");
+							return main();
+						}
+					}
+				}
+			}
+			}
+		}
+	}
+}
